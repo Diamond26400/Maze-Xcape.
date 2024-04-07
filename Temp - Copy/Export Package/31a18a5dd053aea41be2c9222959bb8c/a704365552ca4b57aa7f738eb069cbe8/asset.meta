@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a704365552ca4b57aa7f738eb069cbe8
+timeCreated: 1701425161
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259814
+  packageName: Ready Player Me Avatar Creator
+  packageVersion: 1.1.0
+  assetPath: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/WebRequests/AuthAPIRequests.cs
+  uploadId: 638496

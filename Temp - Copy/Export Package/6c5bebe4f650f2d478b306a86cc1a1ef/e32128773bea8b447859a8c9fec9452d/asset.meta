@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e32128773bea8b447859a8c9fec9452d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259814
+  packageName: Ready Player Me Avatar Creator
+  packageVersion: 1.1.0
+  assetPath: Assets/Ready Player Me/Core/Tests/Editor/UrlConfigTests.cs
+  uploadId: 638496

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8abff5aa323a453abaa431f2c511fff8
+timeCreated: 1693238120
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259814
+  packageName: Ready Player Me Avatar Creator
+  packageVersion: 1.1.0
+  assetPath: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/AnalyticsRuntimeLoggerExtension.cs
+  uploadId: 638496

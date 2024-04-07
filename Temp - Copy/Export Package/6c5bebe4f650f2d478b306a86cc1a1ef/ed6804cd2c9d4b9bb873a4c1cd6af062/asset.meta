@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ed6804cd2c9d4b9bb873a4c1cd6af062
+timeCreated: 1657032252
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259814
+  packageName: Ready Player Me Avatar Creator
+  packageVersion: 1.1.0
+  assetPath: Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics/AmplitudeEditorLogger.cs
+  uploadId: 638496
