@@ -7,17 +7,23 @@ public class playercontroller : MonoBehaviour
     public float moveSpeed = 5.0f;
     public float rotationSpeed = 180.0f;
     public float jumpForce = 8.0f;
-    public float groundDistance = 0.2;
+    public float RunningForce = 15.0f;
+
+    public float groundDistance = 0.2f;
     public LayerMask groundMask;
     
-    private Rigidbody rb;
-    private bool isGrounded;
+   public Rigidbody rb;
+   private bool isGrounded;
+
+   p
+   
+
     
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<RigidBody>();
-
+        rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -46,11 +52,20 @@ public class playercontroller : MonoBehaviour
         Vector3 move = transform.forward * moveSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + move);
 
+
+    // Set animation parameters based on movement speed
+        animator.SetFloat("MoveSpeed", moveSpeed);
+
+   
         //Jumping
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+        //Running
+        if (){
+            rb.AddForce(Vector3.up * RunningForce, ForceMode.Impulse);
         }
     }
 }
