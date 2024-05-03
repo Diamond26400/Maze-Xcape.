@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
+      "Unity.VisualScripting.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Flow/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
+        }
+      },
       "UnityEditor.TestRunner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -53,6 +82,16 @@
     }
   },
   "libraries": {
+    "Unity.VisualScripting.Core/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Core.csproj",
+      "msbuildProject": "Unity.VisualScripting.Core.csproj"
+    },
+    "Unity.VisualScripting.Flow/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Flow.csproj",
+      "msbuildProject": "Unity.VisualScripting.Flow.csproj"
+    },
     "UnityEditor.TestRunner/1.0.0": {
       "type": "project",
       "path": "UnityEditor.TestRunner.csproj",
@@ -76,9 +115,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "UnityEditor.TestRunner >= 1.0.0",
+      "Unity.VisualScripting.Core >= 1.0.0",
+      "Unity.VisualScripting.Flow >= 1.0.0",
       "UnityEditor.UI >= 1.0.0",
-      "UnityEngine.TestRunner >= 1.0.0",
       "UnityEngine.UI >= 1.0.0"
     ]
   },
@@ -88,9 +127,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj",
-      "projectName": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model",
-      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.State.csproj",
+      "projectName": "Unity.VisualScripting.State",
+      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.State.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\obj\\",
       "projectStyle": "PackageReference",
@@ -109,14 +148,14 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEditor.TestRunner.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEditor.TestRunner.csproj"
+            "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.Core.csproj"
+            },
+            "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\Unity.VisualScripting.Flow.csproj"
             },
             "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEditor.UI.csproj": {
               "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEditor.UI.csproj"
-            },
-            "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEngine.TestRunner.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEngine.TestRunner.csproj"
             },
             "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEngine.UI.csproj": {
               "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Maze-Xcape1\\UnityEngine.UI.csproj"

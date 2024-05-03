@@ -390,7 +390,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.3.0a8/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.3.0a8/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
-"Assets/script/playercontroller.cs"
+"Assets/playerController.cs"
+"Assets/script/playerController.cs"
 -langversion:9.0
 
 /deterministic
